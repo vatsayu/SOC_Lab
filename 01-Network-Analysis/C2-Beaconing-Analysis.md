@@ -1,5 +1,4 @@
-# Advanced Threat Hunting: C2 Beaconing & User-Agent Anomalies
-**Author:** Vatsayu  
+# Advanced Threat Hunting: C2 Beaconing & User-Agent Anomalies 
 **Date:** June 9, 2026  
 **Focus:** Isolating Command and Control (C2) Traffic, Jitter Mechanics, and HTTP Header Analysis
 
