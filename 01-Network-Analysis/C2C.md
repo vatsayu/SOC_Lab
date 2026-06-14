@@ -34,7 +34,6 @@ Attackers frequently utilize default command-line utilities or automated scripts
 
 Open a native **PowerShell** window and execute the following block to generate suspicious telemetry:
 
-```powershell
 # 1. Simulating a basic Python web scraper / automated downloader
 Invoke-WebRequest -Uri "[http://httpbin.org/get?source=python-script](http://httpbin.org/get?source=python-script)" -UserAgent "python-requests/2.31.0" -UseBasicParsing
 
@@ -45,13 +44,13 @@ Invoke-WebRequest -Uri "[http://httpbin.org/get?source=curl-tool](http://httpbin
 Invoke-WebRequest -Uri "[http://httpbin.org/get?source=vulnerability-scan](http://httpbin.org/get?source=vulnerability-scan)" -UserAgent "sqlmap/1.7.5#stable" -UseBasicParsing
 
 
-🕵️ Phase 3: Simulating a Stealth Command & Control (C2) Beacon
+## 🕵️ Phase 3: Simulating a Stealth Command & Control (C2) Beacon
+
 Step 4: Launch the Jittered C2 Implant
 To bypass basic signature detection, advanced malware masquerades as a legitimate browser string (Mozilla/5.0) and introduces randomized variance (Jitter) to its check-in frequency.
 
 Copy and paste this loop into your PowerShell terminal and let it execute for 1 to 2 minutes:
 
-PowerShell
 $BaseInterval = 10
 $JitterPercent = 0.20
 
@@ -68,7 +67,8 @@ while($true) {
 }
 Press Ctrl + C inside the PowerShell terminal after a couple of minutes to safely terminate the loop.
 
-🔍 Phase 4: SOC Analyst Triage & Behavioral Analysis
+## 🔍 Phase 4: SOC Analyst Triage & Behavioral Analysis
+
 Step 5: Stop and Isolate the Capture
 Return to Wireshark and click the Red Square (Stop Capture) button in the top left.
 
@@ -94,7 +94,7 @@ Observe the Delta variations: notice how despite the randomized jitter, the requ
 
 ⚠️ Analyst Conclusion: No human browses a website with a pattern this tight and continuous. This periodic clustering flags an automated script signature—confirming an active C2 beacon.
 
-🔒 Phase 5: Sanitization & Export
+## 🔒 Phase 5: Sanitization & Export
 
 Step 8: Safely Export the PCAP for Documentation
 To share this lab in a public portfolio without exposing internal home network infrastructure or personal tokens leaked in background traffic:
