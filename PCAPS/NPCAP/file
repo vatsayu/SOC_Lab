@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"><html>
+<title>Directory listing for /</title>
+<body>
+<h2>Directory listing for /</h2>
+<hr>
+<ul>
+<li><a href="proprietary.png">proprietary.png</a>
+<li><a href="sensitive_info.txt">sensitive_info.txt</a>
+<li><a href="share1.jpg">share1.jpg</a>
+<li><a href="share1.txt">share1.txt</a>
+<li><a href="share2.jpg">share2.jpg</a>
+<li><a href="share2.txt">share2.txt</a>
+</ul>
+<hr>
+</body>
+</html>

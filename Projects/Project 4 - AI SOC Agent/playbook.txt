@@ -1,0 +1,7 @@
+RULE 1: More than 5 failed SSH logins from same IP in 60 seconds = Brute Force Attack. Action: Block IP.
+
+RULE 2: SQL Injection payloads like ' OR '1'='1 detected = Web Attack. Action: Block IP + Alert.
+
+RULE 3: User created outside business hours (9 AM - 6 PM) = Suspicious. Action: Investigate.
+
+RULE 4: File modified in /etc/ or system directories = Possible Rootkit. Action: High Priority.
