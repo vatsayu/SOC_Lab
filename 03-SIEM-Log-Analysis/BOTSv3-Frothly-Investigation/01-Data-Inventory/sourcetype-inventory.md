@@ -71,6 +71,11 @@ index=botsv3 earliest=0
 
 ---
 
+## Screenshots
+- [Sourcetype Stats](../screenshots/Day1/01-sourcetype-stats.png)
+- [Host Values](../screenshots/Day1/02-host-values.png)
+- [Destination IP Values](../screenshots/Day1/03-dest_ip-values.png)
+
 ## Next Steps (Day 2)
 
 - Map the most important hosts in detail

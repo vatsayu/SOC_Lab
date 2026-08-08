@@ -48,6 +48,11 @@ To demonstrate structural hands-on competency to hiring managers, my local virtu
   - Tested classification accuracy against authentication logs to successfully isolate SSH Brute-Force sequences, quantify severity levels, and map tactical response plans.
 * **Documentation Links:** [Python Scripts & AI Output Logs](./02-Endpoint-Analysis/Project-4-AI-SOC-Agent.md)
 
+### 🔍 New Project: BOTSv3 (Boss of the SOC v3) – Frothly Brewing Investigation
+Hands-on Splunk SOC investigation using the official BOTSv3 dataset.  
+Daily progress, SPL queries, IOCs, MITRE mapping, and full incident write-ups.  
+→ [BOTSv3-Frothly-Investigation](03-SIEM-Log-Analysis/BOTSv3-Frothly-Investigation/)
+
 ---
 
 ## 📅 30-Day Practical Project Roadmap
